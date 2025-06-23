@@ -1,0 +1,29 @@
+
+:root {
+    /* Theme Colors */
+    --color-bg: #1E1E1E;          /* Primary Background - Charcoal */
+    --color-surface: #2D2D2D;     /* Secondary Background - Dark Gray */
+    --color-accent: #00ADB5;      /* Accent - Cyan/Teal */
+    --color-text: #FFFFFF;        /* Text - White */
+    --color-highlight: #F8B400;   /* Highlight - Warm Yellow */
+
+    /* Optional UI states */
+    --color-border: #444444;      
+    --color-muted: #AAAAAA;       
+    --color-shadow: rgba(0, 0, 0, 0.3);
+
+    /* Font Sizes */
+    --font-base: 16px;
+    --font-heading: 2rem;
+    --font-subheading: 1.25rem;
+
+    --header-height: 65px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none; 
+}

@@ -1,0 +1,135 @@
+/* 
+Name: Jihee Seo
+Assignment 1
+Lab Section 311
+
+File Name: style.css
+Date: 2025-06-21
+Description: lab3 css file
+*/
+
+@import url("./theme/theme.css");
+@import url("./element/element.css");
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-size: var(--font-base);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+    background-color: var(--color-surface);
+    padding: 1rem;
+    z-index: 100;
+}
+
+h1 {
+    color: var(--color-accent);
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: var(--color-accent);
+    margin-bottom: 10px;
+}
+
+/* start util css*/
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-content-between {
+    justify-content: space-between;
+}
+
+.flex-content-end {
+    justify-content: end;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.text-right {
+    text-align: right;
+}
+/* end util css*/
+
+/* start header */
+header,
+footer {
+    height: var(--header-height);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header a,
+footer a {
+    padding: 10px;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+main {
+    margin-top: var(--header-height);
+    padding: 80px 150px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.sub-content {
+    margin-bottom: 10px;
+}
+
+/* end header */
+
+@media screen and (max-width: 600px) {
+    .flex-mobile {
+        flex-direction: column;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .flex-1-mobile {
+        flex: 1;
+        text-align: center;
+    }
+
+    main {
+        padding: 50px;
+    }
+}

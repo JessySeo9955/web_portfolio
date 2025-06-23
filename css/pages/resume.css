@@ -1,0 +1,4 @@
+#education-item-1 h2, #education-item-2 h2, #project-item-1 h2, #project-item-2 h2, h3 {
+    font-size: 1.1rem;
+    color: var(--color-accent);
+}

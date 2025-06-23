@@ -1,0 +1,44 @@
+.project-nav {
+    position: relative;
+}
+
+
+.project-nav .left-arrow button,
+.project-nav .right-arrow button {
+    position: absolute;
+    top: 50%; /* Push to 50% from the top of parent */
+    transform: translateY(-50%); /* Pull back by 50% of its own height to truly center vertically */
+    padding: 0.6rem 1rem;
+}
+
+.project-nav .left-arrow button {
+    left: -20px;
+}
+
+.project-nav .right-arrow button {
+    right: -20px;
+}
+
+.project-nav img {
+    width: 100%;
+}
+
+.project-nav .element-card:not(.active) {
+    transform: scale(0.95); /* Start with smaller size */
+    transition: transform 0.5s ease;
+}
+
+.project-item {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .project-nav .element-card {
+        display: none;
+    }
+
+    .project-nav .element-card.active {
+        display: block;
+    }
+}

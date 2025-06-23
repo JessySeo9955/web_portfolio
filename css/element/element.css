@@ -1,0 +1,124 @@
+/* a element */
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-highlight);
+}
+
+a.external-link {
+    cursor: alias; /* or 'pointer' */
+}
+
+/* start input element */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    background-color: var(--color-surface); /* Dark input background */
+    color: var(--color-text); /* Light text */
+    border: 1px solid var(--color-border); /* Subtle border */
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: var(--font-base);
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--color-muted); /* Muted placeholder text */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: var(--color-accent); /* Accent on focus */
+    box-shadow: 0 0 0 3px rgba(0, 173, 181, 0.2); /* Glow effect */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+    font-size: var(--font-subheading);
+    font-weight: 500;
+}
+/* end input element */
+
+/* start button element */
+button,
+input[type="submit"] {
+    background-color: var(--color-accent);
+    color: var(--color-text);
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-size: var(--font-base);
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px var(--color-shadow);
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: var(--color-highlight);
+}
+
+button:active,
+input[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+button:disabled,
+input[type="submit"]:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+/* end button element */
+
+/* start util css*/
+.element-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--color-shadow);
+    width: 100%;
+}
+
+.element-card.active {
+    border: 1px solid var(--color-accent);
+}
+
+.element-label-list li {
+    display: inline-block;
+    background-color: var(--color-surface); /* Dark gray background */
+    color: var(--color-text); /* White text */
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.875rem; /* ≈14px */
+    font-weight: 500;
+    margin: 2px 2px 0 0;
+    border: 1px solid var(--color-border);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.element-label-list li:hover {
+    background-color: var(--color-accent); /* Teal on hover */
+    color: var(--color-bg); /* Dark text on light accent */
+    cursor: default;
+}
+
+.element-bullet-list li {
+    list-style: disc;
+    margin-left: 20px;
+}
