@@ -1,4 +1,4 @@
-# 🌤️ Weather Compare
+# 🌤️ web portfolio
 
 A simple web portfolio site.
 
