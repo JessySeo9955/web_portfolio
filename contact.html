@@ -16,11 +16,11 @@ Description: Contact.html - Contact
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Assignment 1 by Jihee Seo" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <script type="module" src="./js/components/index.js" defer></script>
+        <script type="module" src="./js/components/index.js"></script>
         <script type="module" src="./js/pages/contact.js" defer></script>
     </head>
     <body>
-        <site-header></site-header>
+        <site-header activeMenu="contact"></site-header>
         <main>
             <h1>Contact</h1>
             <section class="content">
@@ -41,7 +41,7 @@ Description: Contact.html - Contact
                         <textarea id="contact-message"></textarea>
                     </div>
                     <div class="text-right">
-                        <button type="submit">submit</button>
+                        <button type="submit" disabled>submit</button>
                     </div>
                 </form>
             </section>

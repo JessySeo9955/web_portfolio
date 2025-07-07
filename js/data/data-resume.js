@@ -35,8 +35,8 @@ const experience = [
             "Ensured high-quality deliverables through rigorous QA testing and continuous improvements",
         ],
         links: [
-            { title: "Project Architecture", link: "sdf" },
-            { title: "Project Repository", link: "sdf" },
+            { title: "Stove Indie Game Store", link: "https://store.onstove.com/en" },
+            { title: "Stove User Social Page", link: "https://profile.onstove.com/en/232534909" },
         ],
         date: "Jun 2021 – Jan 2024",
         stacks: ["Vue 2", "Vue 3", "Nuxt", "TypeScript", "RxJS", "WebRTC", "WebSocket"],
@@ -49,34 +49,11 @@ const experience = [
             "Extensive experience with Spring backend development, database management, and Android app development",
             "Maintained backend systems and AWS infrastructure, ensuring seamless integration of new features into existing systems",
         ],
-        links: [
-            { title: "Project Architecture", link: "sdf" },
-            { title: "Project Repository", link: "sdf" },
-        ],
+        links: [],
         date: "Jun 2021 – Jan 2024",
         stacks: ["Spring Framework", "jQuery", "AWS", "MySQL", "Android"],
     },
 ];
 
-const education = [
-   {
-        title: "Computer Programming Diploma Program",
-        description: "Algonquin College, Ottawa, ON",
-        contents: [
-            "GPA (to date): 4.0/4.0",
-            "Dean's Honours List"
-        ],
-        links: [],
-        date: "2025 – Present",
-        stacks: [],
-    },
-       {
-        title: "Bachelor's Degree in Landscape Architecture",
-        description: "University of Seoul, South Korea",
-        contents: [],
-        links: [],
-        date: "2Aug 2012",
-        stacks: [],
-    },
-];
-export { content, skills, experience, education };
+
+export { content, skills, experience };

@@ -16,16 +16,16 @@ Description: index.html - Home
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Assignment 1 by Jihee Seo" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <script type="module" src="./js/components/index.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="css/pages/index.css" />
+        <script type="module" src="./js/components/index.js"></script>
         <script type="module" src="./js/pages/index.js" defer></script>
     </head>
     <body>
-        
-        <site-header></site-header>
+        <site-header activeMenu="index"></site-header>
         <main>
             <h1>Who's Jessy?</h1>
             <section class="flex flex-mobile content">
-                <img src="https://elouwerse.nl/placecircle/150" />
+                <img class="icon" src="./img/js.png" />
                 <site-content id="introduction"></site-content>
             </section>
             <section class="flex flex-mobile">
@@ -33,11 +33,19 @@ Description: index.html - Home
                 <site-content id="qa" class="content"></site-content>
                 <site-content id="devops" class="content"></site-content>
             </section>
+
             <section class="content">
-                <site-content id="activities"></site-content>
+                <h2>Activities</h2>
+                <site-project-item id="activities"></site-project-item>
             </section>
             <section class="content">
-                <site-content id="college"></site-content>
+                <h2>Education</h2>
+                <div>
+                    <site-project-item id="education-item-1"></site-project-item>
+                </div>
+                <div class="mt-10">
+                    <site-project-item id="education-item-2"></site-project-item>
+                </div>
             </section>
         </main>
         <site-footer></site-footer>

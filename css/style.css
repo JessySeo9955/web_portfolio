@@ -25,6 +25,10 @@ footer {
     z-index: 100;
 }
 
+header li.active a {
+    color: var(--color-highlight);
+}
+
 h1 {
     color: var(--color-accent);
     margin-bottom: 30px;
@@ -35,12 +39,17 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    color: var(--color-accent);
+}
+
 /* start util css*/
 .flex {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 
 .flex-content-between {
     justify-content: space-between;

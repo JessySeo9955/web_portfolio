@@ -1,5 +1,6 @@
 import ProjectSkills from '../components/resume-skills.js';
-import { content, skills, experience, education } from "../data/data-resume.js";
+import { content, skills, experience } from "../data/data-resume.js";
+import { education } from "../data/data-common.js";
 import { bindContentToDom } from "../utils/utils.js";
 
 customElements.define('site-resume-skills', ProjectSkills);

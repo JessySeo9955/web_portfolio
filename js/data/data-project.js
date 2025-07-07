@@ -1,5 +1,19 @@
 export const projectDetailContent = [
     {
+        title:'Nuxt Starter',
+        description: 'Vue SSR Framework Starter Template',
+        contents: [
+            'Refactored Nuxt project structure for scalability and environment-specific configurations',
+            'Implemented unit testing with Vitest and E2E testing using Playwright'
+        ],
+        links: [
+            {title: 'Project Architecture', link: 'https://jessyseo9955.github.io/jekyll/update/2025/07/07/nuxt-starter.html'},
+            {title: 'Project Repository', link: 'https://github.com/JessySeo9955/nuxt_starter'}
+        ],
+        date: 'July 2025',
+        stacks: ['Nuxt3', 'Vue3', 'Typescript']
+    },
+  {
         title:'Weather Compare',
         description: 'Web App to Compare City Weather',
         contents: [
@@ -7,8 +21,8 @@ export const projectDetailContent = [
             'Stored and retrieved weather data in IndexedDB to reduce API call'
         ],
         links: [
-            {title: 'Project Architecture', link: 'sdf'},
-            {title: 'Project Repository', link: 'sdf'}
+            {title: 'Project Architecture', link: 'https://jessyseo9955.github.io/jekyll/update/2025/05/20/IndexedDB-WebComponents.html'},
+            {title: 'Project Repository', link: 'https://github.com/JessySeo9955/indexedDB_weather'}
         ],
         date: 'Jun 2025',
         stacks: ['Web Components', 'IndexedDB', 'Service Worker', 'Java', 'AWS Lambda', 'API Gateway', 'GitHub Actions', 'Firebase Hosting']
@@ -20,18 +34,10 @@ export const projectDetailContent = [
             'Implemented CI/CD pipelines and E2E testing using GitHub Actions and Cypress',
             'Integrated GitHub REST API for QA automation; deployed with Docker and Heroku'
         ],
-        links: [],
-        date: 'May 2025',
-        stacks: ['GitHub Actions', 'GitHub Rest API', 'Cypress (E2E)', 'Cypress (E2E)', 'Heroku']
-    },
-    {
-        title:'Mono Repo Architecture22',
-        description: 'DevOps for Monorepo Project',
-        contents: [
-            'Implemented CI/CD pipelines and E2E testing using GitHub Actions and Cypress',
-            'Integrated GitHub REST API for QA automation; deployed with Docker and Heroku'
+        links: [
+             {title: 'Project Architecture', link: 'https://jessyseo9955.github.io/jekyll/update/2025/05/18/github-actions-project.html'},
+            {title: 'Project Repository', link: 'https://github.com/JessySeo9955/school_angular_nest/actions'}
         ],
-        links: [],
         date: 'May 2025',
         stacks: ['GitHub Actions', 'GitHub Rest API', 'Cypress (E2E)', 'Cypress (E2E)', 'Heroku']
     }
