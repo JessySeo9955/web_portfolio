@@ -16,6 +16,17 @@ const activities = [
     },
 ];
 
+const certifications = [
+        {
+        title: "ISTQB Certified Tester – Foundation Level ",
+        description: "ISTQB (International Software Testing Qualifications Board)",
+        contents: [],
+        links: [],
+        date: "Jun 2024",
+        stacks: [],
+    },
+]
+
 
 const education = [
     {
@@ -36,4 +47,4 @@ const education = [
     },
 ];
 
-export { content, activities, education };
+export { content, activities, education, certifications};

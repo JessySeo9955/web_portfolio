@@ -102,7 +102,7 @@ input[type="submit"]:disabled {
 .element-label-list li {
     display: inline-block;
     background-color: var(--color-surface); /* Dark gray background */
-    color: var(--color-text); /* White text */
+    color: var(--color-accent); /* White text */
     padding: 6px 14px;
     border-radius: 999px;
     font-size: 0.875rem; /* ≈14px */
