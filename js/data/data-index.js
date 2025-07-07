@@ -5,7 +5,7 @@ export const content = {
     },
     full_stack: {
         title: 'Full Stack Developer',
-        content: 'Experienced in Spring-based backend development and building modern web applications using Next.js. Proficient in managing relational databases such as MySQL and Oracle.'
+        content: 'Experienced in Spring-based backend development and building modern web applications using Nest.js. Proficient in managing relational databases such as MySQL and Oracle.'
     },
     qa: {
         title: 'QA automation',
