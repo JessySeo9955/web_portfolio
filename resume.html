@@ -12,37 +12,38 @@ Description: resume.html - Resume
 <html lang="en">
     <head>
         <title>Jessy's Home</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Assignment 1 by Jihee Seo" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Assignment 1 by Jihee Seo">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="module" src="./js/components/index.js"></script>
-        <script type="module" src="./js/components/resume-skills.js" defer></script>
-        <script type="module" src="./js/pages/resume.js" defer></script>
+        <script type="module" src="./js/components/resume-skills.js"></script>
+        <script type="module" src="./js/pages/resume.js"></script>
     </head>
     <body>
-         <site-header activeMenu="resume"></site-header>
+        <site-header activeMenu="resume"></site-header>
         <main>
-            <h1>Jessy Seo</h1>
-            <div class="content">
-                <ul class="flex project-description mt-10 flex-content-end">
-                    <li><a target="_blank" href= "https://github.com/JessySeo9955" class="external-link">GitHub</a></li>
-                    <li><a target="_blank" href= "https://jessyseo9955.github.io" class="external-link">Blog</a></li>
-                    <li><a href="mailto:jessy.seo.9955@gmail.com" class="external-link">Email</a></li>
-                </ul>
-            </div>
-            <section class="content">
-                <site-content id="profile"></site-content>
-
-                <ul class="flex element-label-list flex-wrap mt-10">
-                    <li>Front-End Developer</li>
-                    <li>Full Stack Developer</li>
-                    <li>QA automation</li>
-                    <li>DevOps</li>
-                </ul>
-            </section>
-            <section class="content">
-                <site-resume-skills id="skills"></site-resume-skills>
+            <section>
+                <h1>Jessy Seo</h1>
+                <div class="content">
+                    <ul class="flex project-description mt-10 flex-content-end">
+                        <li><a target="_blank" href="https://github.com/JessySeo9955" class="external-link">GitHub</a></li>
+                        <li><a target="_blank" href="https://jessyseo9955.github.io" class="external-link">Blog</a></li>
+                        <li><a href="mailto:jessy.seo.9955@gmail.com" class="external-link">Email</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <site-content id="profile"></site-content>
+                    <ul class="flex element-label-list flex-wrap mt-10">
+                        <li>Front-End Developer</li>
+                        <li>Full Stack Developer</li>
+                        <li>QA automation</li>
+                        <li>DevOps</li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <site-resume-skills id="skills"></site-resume-skills>
+                </div>
             </section>
 
             <section class="content">
@@ -61,13 +62,14 @@ Description: resume.html - Resume
                 <site-project-item id="project-item-1"></site-project-item>
                 <site-project-item id="project-item-2"></site-project-item>
             </section>
+
             <section class="content">
                 <h2>Education</h2>
                 <site-project-item id="education-item-1"></site-project-item>
                 <site-project-item id="education-item-2" class="mt-10"></site-project-item>
             </section>
 
-                    <section class="content">
+            <section class="content">
                 <h2>Activities</h2>
                 <site-project-item id="activities"></site-project-item>
             </section>

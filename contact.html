@@ -12,38 +12,40 @@ Description: Contact.html - Contact
 <html lang="en">
     <head>
         <title>Jessy's Home</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Assignment 1 by Jihee Seo" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Assignment 1 by Jihee Seo">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="module" src="./js/components/index.js"></script>
-        <script type="module" src="./js/pages/contact.js" defer></script>
+        <script type="module" src="./js/pages/contact.js"></script>
     </head>
     <body>
         <site-header activeMenu="contact"></site-header>
         <main>
-            <h1>Contact</h1>
-            <section class="content">
-                <site-content id="contact"></site-content>
-            </section>
             <section>
-                <form>
-                    <div class="content">
-                        <label for="contact-name">name</label>
-                        <input type="text" id="contact-name" />
-                    </div>
-                    <div class="content">
-                        <label for="contact-email">email</label>
-                        <input type="text" id="contact-email" />
-                    </div>
-                    <div class="content">
-                        <label for="contact-message">message</label>
-                        <textarea id="contact-message"></textarea>
-                    </div>
-                    <div class="text-right">
-                        <button type="submit" disabled>submit</button>
-                    </div>
-                </form>
+                <h1>Contact</h1>
+                <div class="content">
+                    <site-content id="contact"></site-content>
+                </div>
+                <div>
+                    <form>
+                        <div class="content">
+                            <label for="contact-name">name</label>
+                            <input type="text" id="contact-name">
+                        </div>
+                        <div class="content">
+                            <label for="contact-email">email</label>
+                            <input type="text" id="contact-email">
+                        </div>
+                        <div class="content">
+                            <label for="contact-message">message</label>
+                            <textarea id="contact-message"></textarea>
+                        </div>
+                        <div class="text-right">
+                            <button type="submit" disabled>submit</button>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
         <site-footer></site-footer>

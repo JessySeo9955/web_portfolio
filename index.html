@@ -12,26 +12,28 @@ Description: index.html - Home
 <html lang="en">
     <head>
         <title>Jessy's Home</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Assignment 1 by Jihee Seo" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/pages/index.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Assignment 1 by Jihee Seo">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/pages/index.css">
         <script type="module" src="./js/components/index.js"></script>
-        <script type="module" src="./js/pages/index.js" defer></script>
+        <script type="module" src="./js/pages/index.js"></script>
     </head>
     <body>
         <site-header activeMenu="index"></site-header>
         <main>
-            <h1>Who's Jessy?</h1>
-            <section class="flex flex-mobile content">
-                <img class="icon" src="./img/js.png" />
-                <site-content id="introduction"></site-content>
-            </section>
-            <section class="flex flex-mobile">
-                <site-content id="full-stack" class="content"></site-content>
-                <site-content id="qa" class="content"></site-content>
-                <site-content id="devops" class="content"></site-content>
+            <section>
+                <h1>Who's Jessy?</h1>
+                <div class="flex flex-mobile content">
+                    <img class="icon" src="./img/js.png" alt="js logo">
+                    <site-content id="introduction"></site-content>
+                </div>
+                <div class="flex flex-mobile">
+                    <site-content id="full-stack" class="content"></site-content>
+                    <site-content id="qa" class="content"></site-content>
+                    <site-content id="devops" class="content"></site-content>
+                </div>
             </section>
 
             <section class="content">

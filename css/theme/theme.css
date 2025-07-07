@@ -5,7 +5,7 @@
     --color-surface: #2D2D2D;     /* Secondary Background - Dark Gray */
     --color-accent: #00ADB5;      /* Accent - Cyan/Teal */
     --color-text: #FFFFFF;        /* Text - White */
-    --color-highlight: #F8B400;   /* Highlight - Warm Yellow */#F8B400
+    --color-highlight: #F8B400;   /* Highlight - Warm Yellow */
 
     /* Optional UI states */
     --color-border: #444444;      
