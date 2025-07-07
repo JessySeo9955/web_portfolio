@@ -13,7 +13,7 @@ const skills = [
     },
     {
         title: "Backend",
-        content: "Spring Framework, Node.js, Express.js, MySQL, Oracle, Python",
+        content: "Spring Framework, Node.js, Nest.js, Express.js, MySQL, Oracle, Python",
     },
     {
         title: "CI/CD",
