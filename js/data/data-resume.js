@@ -27,9 +27,10 @@ const skills = [
 
 const experience = [
     {
-        title: "Freelance Front-End Developer",
-        description: "Smilegate Stove (remote), South Korea",
+        title: "Front-End Developer / Founder",
+        description: "Trediy, South Korea",
         contents: [
+            "Led front-end development as an outsourcing partner for Smilegate Stove",
             "Participated in various domain projects, including a video conferencing software, indie game platform, and social page",
             "Developed critical features, such as payment integration and video connection functionality",
             "Ensured high-quality deliverables through rigorous QA testing and continuous improvements",
