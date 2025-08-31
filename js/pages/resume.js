@@ -13,7 +13,7 @@ const bindTargets = [
 bindTargets.forEach(({ domId, dataKey }) => bindContentToDom(domId, content[dataKey]));
 bindContentToDom('#skills', skills);
 bindContentToDom('#project-item-1', experience[0]);
-bindContentToDom('#project-item-2', experience[1]);
+// bindContentToDom('#project-item-2', experience[1]);
 // bindContentToDom('#education-item-1', education[0]);
 bindContentToDom('#education-item-2', education[1]);
 bindContentToDom('#activities', activities[0]);

@@ -41,7 +41,8 @@ const experience = [
         ],
         date: "Jun 2021 – Jan 2024",
         stacks: ["Vue 2", "Vue 3", "Nuxt", "TypeScript", "RxJS", "WebRTC", "WebSocket"],
-    },
+    }
+    ,
     {
         title: "Web Developer",
         description: "HHam, South Korea",
