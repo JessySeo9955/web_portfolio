@@ -1,4 +1,19 @@
 export const projectDetailContent = [
+        {
+        title:'Financial Tracker',
+        description: 'Web App to Manage Personal Budget',
+        contents: [
+            'Took full ownership of the PHP development for a 3-member team project',
+            'Implemented backend logic and database integration with MySQL using XAMPP',
+            'reated interactive charts to visualize spending patterns using Chart.js'
+        ],
+        links: [
+            {title: 'Project Architecture', link: 'https://jessyseo9955.github.io/jekyll/update/2025/08/10/Task-Bidder.html'},
+            {title: 'Project Repository', link: 'https://github.com/JessySeo9955/Assignment2_Group9'}
+        ],
+        date: 'August 2025',
+        stacks: ['PHP', 'JavaScript', 'Html', 'CSS', 'MySql', 'Git', 'Chart.js']
+    },
     {
         title:'Nuxt Starter',
         description: 'Vue SSR Framework Starter Template',
@@ -13,6 +28,7 @@ export const projectDetailContent = [
         date: 'July 2025',
         stacks: ['Nuxt3', 'Vue3', 'Typescript']
     },
+    
   {
         title:'Weather Compare',
         description: 'Web App to Compare City Weather',
