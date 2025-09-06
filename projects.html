@@ -27,8 +27,8 @@ Description: Projects.html - Projects
                 <h1>Projects</h1>
                 <div class="project">
                     <div class="content project-nav">
-                        <ul class="flex flex-mobile content">
-                            <li class="element-card flex-1 active">
+                        <ul class="flex flex-mobile content" onclick="project.changeCurrentActive(event)">
+                            <li class="element-card flex-1 active" data-index="0">
                                 <h3>[FullStack] <br />Financial Tracker</h3>
                                 <img
                                     class="mt-10"
@@ -36,7 +36,7 @@ Description: Projects.html - Projects
                                     alt="project"
                                 />
                             </li>
-                            <li class="element-card flex-1">
+                            <li class="element-card flex-1" data-index="1">
                                 <h3>[CI/CD, QA Automation]<br />Mono Repo Architecture</h3>
                                 <img
                                     class="mt-10"
@@ -45,7 +45,7 @@ Description: Projects.html - Projects
                                 />
                             </li>
 
-                            <li class="element-card flex-1">
+                            <li class="element-card flex-1" data-index="2">
                                 <h3>[CI/CD, FullStack]<br />Weather Compare</h3>
                                 <img
                                     class="mt-10"
@@ -53,7 +53,7 @@ Description: Projects.html - Projects
                                     alt="project"
                                 />
                             </li>
-                            <li class="element-card flex-1 active">
+                            <li class="element-card flex-1 active" data-index="3">
                                 <h3>[Frontend]<br />Nuxt Starter</h3>
                                 <img
                                     class="mt-10"

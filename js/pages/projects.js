@@ -6,6 +6,16 @@ const project = (function () {
 
     setActive();
 
+    function changeCurrentActive(event) {
+        const clickedElement = event.target;
+        const liElement = clickedElement.closest('li.element-card');
+
+        if (!liElement) return; 
+        activeIndex = liElement.getAttribute('data-index');
+        setActive();
+     
+    }
+
     function goRight() {
         activeIndex = (activeIndex + 1) % projects.length;
         setActive();
@@ -29,7 +39,8 @@ const project = (function () {
     return {
         getActiveIndex: () => activeIndex,
         goLeft,
-        goRight
+        goRight,
+        changeCurrentActive
     }
 })();
 
