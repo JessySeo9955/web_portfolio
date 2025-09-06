@@ -1,7 +1,7 @@
 import {projectDetailContent} from '../data/data-project.js';
 
 const project = (function () {
-    const projects = [0, 1, 2];
+    const projects = [0, 1, 2, 4];
     let activeIndex = 0;
 
     setActive();
